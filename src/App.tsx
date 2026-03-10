@@ -30,7 +30,7 @@ export default function App() {
         <div className="bg-zinc-900 px-6 py-4 flex justify-between items-center">
           <h1 className="text-white font-semibold tracking-tight">Featured Content</h1>
         <button 
-          onClick={() => setIsVisible(false)}
+          onClick={() => window.close()}
           className="group relative p-2 rounded-full text-zinc-400 hover:text-white hover:bg-red-500/10 transition-all duration-200 active:scale-90"
           aria-label="Close"
         >
@@ -81,4 +81,5 @@ export default function App() {
       </motion.div>
     </div>
   );
+
 }
